@@ -14,7 +14,7 @@ mail = Mail(app)
 
 @app.get('/')
 def index():
-    sample_record = db.response.find_one({}, sort=[( '_id', -1 )])
+    #sample_record = db.response.find_one({}, sort=[( '_id', -1 )])
     # admin_emails = [user['email'] for user in db.users.find()]
     # msg = Message('Health and Wellness Survey: New Submission Receieved!', recipients=admin_emails)
     # msg.body = render_template('cognixrsummary.html', **sample_record)
