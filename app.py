@@ -10,7 +10,7 @@ db = client.capstone
 app = Flask(__name__)
 app.json_encoder = MongoEncoder
 app.config.update(mail_settings)
-mail = Mail(app)
+#mail = Mail(app)
 
 @app.get('/')
 def index():
