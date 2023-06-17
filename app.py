@@ -20,7 +20,8 @@ def index():
     # msg.body = render_template('cognixrsummary.html', **sample_record)
     # msg.html = render_template('cognixrsummary.html', **sample_record)
     # mail.send(msg)
-    return render_template('cognixrsummary.html', **sample_record)
+    # return render_template('cognixrsummary.html', **sample_record)
+    return ('Hello world')
 
 @app.post('/')
 def get_form_submission():
